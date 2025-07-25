@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(32, 40, 54)
+    
+
+}
+
+.logo-container {
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+    gap: 10px;
+
+}
+.content {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+     font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+    
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;   /* vertically center logo and text */
+  gap: 8px;              /* space between image and text */
+}
+
+.location{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding:5px,10px;
+    cursor: pointer;
+
+}
+
+.link:hover{
+    color: rgb(225, 255, 0)
+}
+
+.profile-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
