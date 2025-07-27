@@ -4,7 +4,7 @@
 nav {
     position: fixed;
     top: 0;
-    height: 60px;
+    height: 100px;
     width: 100%;
     background-color: rgb(32, 40, 54)
     
@@ -38,16 +38,26 @@ nav {
   gap: 8px;              /* space between image and text */
 }
 
-.location{
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    background-color: whitesmoke;
+.buttonCSS{
+    height: 50px;
+    width: 60px;
+    background-color: #2a313b;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    flex-direction: row;
 }
+.buttonsorient{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
 .logo{
     height: 40px;
     width: 40px;
@@ -61,8 +71,11 @@ nav {
 
 .links {
     display: flex;
-    gap: 10px;
+    gap: 60px;
     align-items: center;
+     align-items: center;
+    justify-content: center;
+    flex-direction: row;
 
 }
 

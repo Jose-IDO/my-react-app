@@ -2,6 +2,8 @@ import React from 'react'
 import { Text} from '../text/text'
 import styles from './Navbar.module.css'
 import { Containercontent } from '../Containercontent'
+import mapfinal from '../../assets/map-final.png'
+import cartfinal from '../../assets/cart-final.png'
 
 
 export const Navbar: React.FC<any> = () => {
@@ -22,28 +24,27 @@ return (
         </div>
 
         <div className={styles.links}>
-          <div>
+            <div>
             <a href="/#" className={styles.link}>Menu</a>
             <a href="/#" className={styles.link}>Pages</a>
             <a href="/#" className={styles.link}>Blog</a>
             <a href="/#" className={styles.link}>Contact Us</a>
-          </div>
+           </div>
 
-          <div className={styles.buttonCSS}>
-            <button className={styles.location}>
-              <img
-                src="https://static.vecteezy.com/system/resources/previews/025/638/552/non_2x/simple-map-icon-the-icon-can-be-used-for-websites-print-templates-presentation-templates-illustrations-etc-free-vector.jpg"
+            <div className={styles.buttonsorient}>
+              <button className={styles.buttonCSS}>
+                <img className = {styles.buttonCSS}
+                src= {mapfinal}
                 alt="map icon"
               />
+              </button>
+              <button className = {styles.buttonCSS}>
+              <img
+              className={styles.buttonCSS}
+                src={cartfinal}
+                alt="cart icon"
+              />
             </button>
-
-            <button className={styles.cart}>cart</button>
-
-            {/* 
-            <div className={styles['profile-icon']}> 
-              <Text variant="span" style={{ color: 'black' }}>U</Text>
-            </div> 
-            */}
           </div>
         </div>
 
@@ -51,3 +52,12 @@ return (
     </div>
   </nav>
 )}
+
+
+
+
+            {/* 
+            <div className={styles['profile-icon']}> 
+              <Text variant="span" style={{ color: 'black' }}>U</Text>
+            </div> 
+            */}
