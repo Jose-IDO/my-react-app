@@ -8,7 +8,7 @@ import cartfinal from '../../assets/cart-final.png'
 export const Navbar: React.FC<any> = () => {
   return (
     <nav>
-      <div className={styles.content}>
+      {/* <div className={styles.content}> */}
         <Containercontent className={styles.content}>
 
           <div className={styles.logoContainer}>
@@ -39,7 +39,7 @@ export const Navbar: React.FC<any> = () => {
           </div>
 
         </Containercontent>
-      </div>
+      {/* </div> */}
     </nav>
   )
 }
