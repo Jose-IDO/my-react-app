@@ -9,10 +9,12 @@ body {
   background-image: url('/src/assets/background-image.jpeg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  
 }
 
 .wholebodyp1 {
+  all: unset;
+  display: block;
   width: 80%;
   margin: 91px auto 0;
   display: flex;
@@ -27,7 +29,7 @@ body {
 }
 
 .fruitbowl {
-  max-width: 100%;  /* max 100% of wrapper */
+  width: 100%;  /* max 100% of wrapper */
   height: auto;     /* keep aspect ratio */
   display: block;
 }
