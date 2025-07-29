@@ -67,7 +67,7 @@ body {
 
 .textBox2 {
   position: absolute;
-  top: 44%;                 
+  top: 46%;                 
   left: 5%;               
   max-width: 25%;           
   color: white;
@@ -114,7 +114,7 @@ body {
 .buttonTopRight {
   all: unset;
   position: absolute;
-  top: 20%;       
+  top: 40%;       
   right: 2%;       
   padding: 0.5em 1em;
   background-color: orangered;

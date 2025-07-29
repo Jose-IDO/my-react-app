@@ -13,7 +13,7 @@ export const BodyP1: React.FC = () => {
         />
         <button className={styles.buttonTopRight}>Sign In</button>
         <div className={styles.textBox1}>South Africa's #1 online Summer Salad Store</div>
-        <div className={styles.textBox2}>#Summers best Anti-ox Bowl</div>
+        <div className={styles.textBox2}>Summers best Anti-ox Bowl</div>
         <div className={styles.textBox3}>want the recipe?</div>
 
         <button className={styles.button1}>Recipe</button>
