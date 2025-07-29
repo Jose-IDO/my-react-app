@@ -15,7 +15,7 @@ export const BodyP1: React.FC<Props> = () => {
           alt="fruit bowl"
           className={styles.fruitbowl}
         />
-        <div className={styles.overlayText}>South Africas</div>
+        <div className={styles.overlayText}>South Africas #1 online Summer Salad Store</div>
       </div>
     </Containercontent>
   )
