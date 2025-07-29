@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-body {
-  margin: 0;
-  padding: 0;
-  background-image: url('/src/assets/background-image.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 nav {
   position: fixed;
   top: 0;
@@ -20,20 +11,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.logo-container {
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  height: 100%;
-  cursor: pointer;
-  gap: 10px;
+  z-index: 10;
 }
 
 .content {
-  width: 80%;
-  margin: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,68 +29,19 @@ nav {
   gap: 8px;
 }
 
-.mapbuttonCSS1 {
-  height: 80px;
-  width: 80px;
-  background-color: #2a313b;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  flex-direction: row;
-  border-radius: 0;
-  border: none;
-}
-
-.mapiconCSS1 {
-  height: 50px;
-  width: 60px;
-  background-color: #2a313b;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  flex-direction: row;
-}
-
-.cartbuttonCSS2 {
-  height: 80px;
-  width: 80px;
-  background-color: #2a313b;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  flex-direction: row;
-  border-radius: 0;
-  border: none;
-}
-
-.carticonCSS2 {
-  height: 50px;
-  width: 60px;
-  background-color: #2a313b;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  flex-direction: row;
-}
-
 .logo {
   height: 40px;
   width: 40px;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
   cursor: pointer;
 }
 
 .links {
   display: flex;
   align-items: center;
-  gap: 20px; 
+  gap: 20px;
 }
 
 .wordedlinks {
@@ -127,13 +60,36 @@ nav {
   color: rgb(225, 255, 0);
 }
 
-.profile-icon {
-  height: 40px;
-  width: 40px;
-  border-radius: 20px;
-  background-color: whitesmoke;
+.mapbuttonCSS1 {
+  height: 50px;
+  width: 50px;
+  background-color: #2a313b;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
   cursor: pointer;
+}
+
+.mapiconCSS1 {
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+}
+
+.cartbuttonCSS2 {
+  height: 50px;
+  width: 50px;
+  background-color: #2a313b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+}
+
+.carticonCSS2 {
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
 }
