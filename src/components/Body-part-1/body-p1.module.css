@@ -14,24 +14,21 @@ body {
 
 .wholebodyp1 {
   width: 80%;
-  margin: 120px auto 0;
+  margin: 91px auto 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: calc(100vh - 120px);
 }
 
 .imageWrapper {
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
+  width: 100%;  /* fill wholebodyp1 width */
   display: flex;
   justify-content: center;
 }
 
 .fruitbowl {
-  width: 100%;
-  height: auto;
+  max-width: 100%;  /* max 100% of wrapper */
+  height: auto;     /* keep aspect ratio */
   display: block;
 }
 
