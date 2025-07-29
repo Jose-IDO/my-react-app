@@ -83,10 +83,12 @@ body {
 }
 .button1 {
   all:unset;
+   display: inline-block;
+   cursor: pointer;
   position: absolute;
-  top: 90%;                 
+  top: 85%;                 
   left: 20%;
-  bottom: 1%;              
+  bottom: 2%;              
   max-width: 200px;
   max-height: 150px;           
   color: white;
@@ -95,4 +97,29 @@ body {
   background-color: orangered;
   border-radius: 10px;
   padding: 10px;
+  margin-bottom: 15px;
+}
+
+.button1:hover{
+  color: rgb(200, 255, 0);
+
+}
+
+.buttonTopRight {
+  all: unset;
+  position: absolute;
+  top: 15%;       
+  right: 2%;       
+  padding: 0.5em 1em;
+  background-color: orangered;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(12px, 2vw, 24px);
+  cursor: pointer;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.buttonTopRight:hover{
+    color: rgb(200, 255, 0);
 }
