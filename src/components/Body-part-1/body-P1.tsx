@@ -18,7 +18,6 @@ export const BodyP1: React.FC = () => {
 
         <button className={styles.button1}>Recipe</button>
       </div>
-// 
     </Containercontent>
   )
 }
