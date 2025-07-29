@@ -90,7 +90,7 @@ body {
    display: inline-block;
    cursor: pointer;
   position: absolute;
-  top: 65%;                 
+  top: 85%;                 
   left: 20%;
   bottom: 2%;              
   max-width: 200px;
@@ -114,7 +114,7 @@ body {
 .buttonTopRight {
   all: unset;
   position: absolute;
-  top: 40%;       
+  top: 25%;       
   right: 2%;       
   padding: 0.5em 1em;
   background-color: orangered;
