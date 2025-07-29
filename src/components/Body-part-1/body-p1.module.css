@@ -57,7 +57,7 @@ body {
 
 .textBox1 {
   position: absolute;
-  top: 15%;                 
+  top: 20%;                 
   left: 5%;               
   max-width: 25%;           
   color: white;
@@ -90,7 +90,7 @@ body {
    display: inline-block;
    cursor: pointer;
   position: absolute;
-  top: 85%;                 
+  top: 89%;                 
   left: 20%;
   bottom: 2%;              
   max-width: 200px;
