@@ -102,10 +102,12 @@ body {
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 15px;
+  transition: transform 0.3s ease
 }
 
 .button1:hover{
   color: rgb(200, 255, 0);
+  transform: scale(1.05);
 
 }
 
@@ -122,8 +124,10 @@ body {
   cursor: pointer;
   border-radius: 6px;
   text-align: center;
+  transition: transform 0.3s ease
 }
 
 .buttonTopRight:hover{
     color: rgb(200, 255, 0);
+    transform: scale(1.05);
 }

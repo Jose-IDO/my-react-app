@@ -1,40 +1,59 @@
-/* .bodyP2 {
-  width: 80%;                        
-  margin: 0 auto;                    
-  background-color: rgb(32, 40, 54);
-  min-height: 400px;                 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
 .bodyP2 {
   width: 80%;
-  margin: 0 auto;
   background-color: rgb(32, 40, 54);
-  min-height: auto;
-  height: auto;
+  min-height: 300px;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.innerContent {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 100%;
-  padding: 10px 0;  /* creates the 10px gap on top and bottom */
+  overflow: hidden;
+  position: relative;
 }
 
 
+.leftside {
+  flex: 1;
+  color: white;
+  padding: 30px;
+}
+
+.juicevscoffee {
+  font-size: clamp(20px, 3vw, 90px);
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.subText {
+  font-size: clamp(14px, 2vw, 18px);
+  margin-bottom: 15px;
+}
+
+.learnButton {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: clamp(14px, 2vw, 18px);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.rightImage {
+  /* flex: 1; */
+  display: flex;
+  right: 10%;
+  /* justify-content: flex-end; */
+  align-items: center;
+}
 
 .fruitImage {
-    flex: auto;
-    flex-direction:row;
-    all: unset;
-  width: 100px; 
-  height: 200px;
+  width: 60%;
+  max-width: 250px;
+  height: auto;
   border-radius: 8px;
-  left: 50%;  
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+  
+.fruitImage:hover {
+  transform: scale(1.05); 
 }
