@@ -61,7 +61,7 @@ body {
   left: 5%;               
   max-width: 25%;           
   color: white;
-  font-size: clamp(3px, 2.5vw, 30px); 
+  font-size: clamp(3px, 2.5vw, 15px); 
   font-family: 'Poppins', sans-serif;
 }
 
