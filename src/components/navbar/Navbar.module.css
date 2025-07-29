@@ -27,6 +27,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 8px;
+  font-size: medium;
 }
 
 .logo {
@@ -56,6 +57,7 @@ nav {
   color: white;
   padding: 5px 10px;
   cursor: pointer;
+  font-size: small;
 }
 
 .link:hover {
