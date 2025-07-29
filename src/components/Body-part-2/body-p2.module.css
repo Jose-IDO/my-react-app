@@ -1,0 +1,40 @@
+/* .bodyP2 {
+  width: 80%;                        
+  margin: 0 auto;                    
+  background-color: rgb(32, 40, 54);
+  min-height: 400px;                 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.bodyP2 {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(32, 40, 54);
+  min-height: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.innerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;  /* creates the 10px gap on top and bottom */
+}
+
+
+
+.fruitImage {
+    flex: auto;
+    flex-direction:row;
+    all: unset;
+  width: 100px; 
+  height: 200px;
+  border-radius: 8px;
+  left: 50%;  
+}
