@@ -13,7 +13,14 @@ type Props = {
 export const BodyP1:React.FC<Props> = () => {
   return (
     <Containercontent className = {styles.wholebodyp1}>
-
+    <div>
+    <img 
+    src= "https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/fruitbowl.png"
+    alt = "fruit bowl image"
+    className = {styles.fruitbowl}
+    />
+    </div>
+    "
       <div className = {styles.fruitbowl}>
         <div className = {styles.fruitbowlbutton}>
 

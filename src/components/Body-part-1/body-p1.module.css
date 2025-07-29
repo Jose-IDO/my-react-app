@@ -1,15 +1,19 @@
 .wholebodyp1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
+  margin-left: 285px;
+  margin-top: 91px;
+
 }
 
 .fruitbowl {
-  background-image: url('../../assets/fruitbowl.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url('../../assets/fruitbowl.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  width: 1200px;
-  height: 800px;
+  background-repeat: no-repeat; */
+  width: 2348px;
+  height: 1200px;
+  
 }
