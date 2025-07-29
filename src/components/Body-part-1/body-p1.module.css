@@ -26,14 +26,17 @@ body {
 }
 
 .imageWrapper {
-  width: 100%;  /* fill wholebodyp1 width */
+  position: relative; 
+  width: 100%;  
   display: flex;
   justify-content: center;
+   position: relative;
+   
 }
 
 .fruitbowl {
-  width: 100%;  /* max 100% of wrapper */
-  height: auto;     /* keep aspect ratio */
+  width: 100%;  
+  height: auto;   
   display: block;
 }
 
@@ -42,8 +45,54 @@ body {
   color: white;
   font-size: clamp(16px, 3vw, 32px);
   font-family: 'Poppins', sans-serif;
-  top: 15%;
-  left: 14%;
+  top: 10%;
+  left: 5%;
   /* transform: translate(-50%, -50%); */
   text-align: center;
+}
+
+.textBox1 {
+  position: absolute;
+  top: 10%;                 
+  left: 5%;               
+  max-width: 25%;           
+  color: white;
+  font-size: clamp(3px, 2.5vw, 42px); 
+  font-family: 'Poppins', sans-serif;
+}
+
+.textBox2 {
+  position: absolute;
+  top: 44%;                 
+  left: 5%;               
+  max-width: 25%;           
+  color: white;
+  font-size: clamp(5px, 3.5vw, 200px); 
+  font-family: 'Poppins', sans-serif;
+  font-weight: 1000;
+}
+
+.textBox3 {
+  position: absolute;
+  top: 80%;                 
+  left: 5%;               
+  max-width: 25%;           
+  color: white;
+  font-size: clamp(3px, 2.5vw, 42px); 
+  font-family: 'Poppins', sans-serif;
+}
+.button1 {
+  all:unset;
+  position: absolute;
+  top: 90%;                 
+  left: 20%;
+  bottom: 1%;              
+  max-width: 200px;
+  max-height: 150px;           
+  color: white;
+  font-size: clamp(1px, 2.5vw, 42px); 
+  font-family: 'Poppins', sans-serif;
+  background-color: orangered;
+  border-radius: 10px;
+  padding: 10px;
 }

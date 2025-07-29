@@ -2,11 +2,7 @@ import React from 'react'
 import { Containercontent } from '../Containercontent'
 import styles from './body-p1.module.css'
 
-type Props = {
-  className?: string;
-}
-
-export const BodyP1: React.FC<Props> = () => {
+export const BodyP1: React.FC = () => {
   return (
     <Containercontent className={styles.wholebodyp1}>
       <div className={styles.imageWrapper}>
@@ -15,10 +11,18 @@ export const BodyP1: React.FC<Props> = () => {
           alt="fruit bowl"
           className={styles.fruitbowl}
         />
-        <div className={styles.overlayText}>South Africas #1 online Summer Salad Store</div>
+
+        <div className={styles.textBox1}>South Africa's #1 online Summer Salad Store</div>
+        <div className={styles.textBox2}>#Summers best Anti-ox Bowl</div>
+        <div className={styles.textBox3}>want the recipe?</div>
+
+        <button className={styles.button1}>Recipe</button>
       </div>
+// 
     </Containercontent>
   )
 }
 
 export default BodyP1
+
+

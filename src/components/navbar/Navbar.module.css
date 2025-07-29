@@ -27,7 +27,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: medium;
+  font-size:large;
 }
 
 .logo {
@@ -42,9 +42,9 @@ nav {
 .links {
   display: flex;
   align-items: center;
-  gap: 10px; /* smaller gap */
-  flex-wrap: wrap; /* allow wrapping on small screens */
-  max-width: 100%; /* don't overflow */
+  gap: 10px;
+  flex-wrap: wrap; 
+  max-width: 100%; 
 }
 
 .wordedlinks {
@@ -57,7 +57,7 @@ nav {
   color: white;
   padding: 5px 10px;
   cursor: pointer;
-  font-size: small;
+  font-size: medium;
 }
 
 .link:hover {
@@ -73,7 +73,7 @@ nav {
   justify-content: center;
   border: none;
   cursor: pointer;
-  min-width: 40px; /* keep clickable */
+  min-width: 40px; 
 }
 
 .mapiconCSS1 {
@@ -91,7 +91,7 @@ nav {
   justify-content: center;
   border: none;
   cursor: pointer;
-  min-width: 40px; /* keep clickable */
+  min-width: 40px; 
 }
 
 .carticonCSS2 {
