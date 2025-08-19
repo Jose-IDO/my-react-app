@@ -57,11 +57,11 @@ body {
 
 .textBox1 {
   position: absolute;
-  top: 20%;                 
+  top: 23%;                 
   left: 5%;               
   max-width: 25%;           
   color: white;
-  font-size: clamp(3px, 2.5vw, 15px); 
+  font-size: clamp(7px, 2.5vw, 25px); 
   font-family: 'Poppins', sans-serif;
 }
 
@@ -82,21 +82,22 @@ body {
   left: 5%;               
   max-width: 25%;           
   color: white;
-  font-size: clamp(3px, 2.5vw, 30px); 
+  font-size: clamp(3px, 2.5vw, 25px); 
   font-family: 'Poppins', sans-serif;
 }
+
 .button1 {
   all:unset;
    display: inline-block;
    cursor: pointer;
   position: absolute;
-  top: 89%;                 
-  left: 20%;
-  bottom: 2%;              
+  top: 78%;                 
+  left: 23%;
+  /* bottom: 2%;               */
   max-width: 200px;
   max-height: 150px;           
   color: white;
-  font-size: clamp(1px, 2.5vw, 42px); 
+  font-size: clamp(1px, 2.5vw, 30px); 
   font-family: 'Poppins', sans-serif;
   background-color: orangered;
   border-radius: 10px;

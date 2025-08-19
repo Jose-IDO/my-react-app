@@ -17,7 +17,7 @@ export const Navbar: React.FC<any> = () => {
               alt="company logo"
               className={styles.logo}
             />
-            <Text variant="h2" style={{ margin: 0  }}>Joux De Vie</Text>
+            <Text variant="h2" style={{ margin: 0, color: 'white'  }}>Joux De Vie</Text>
           </div>
 
           <div className={styles.links}>
