@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/background-image.jpeg');
+  background-size: cover;   
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
