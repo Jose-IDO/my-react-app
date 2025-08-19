@@ -7,20 +7,20 @@ export const MenuBenefit: React.FC = () => {
     {
       icon: "🌿",
       title: "FRESH",
-      subtitle: "Plus a thind un",
-      description: "Sapiente opportunity"
+      subtitle: "Bowls made daily!",
+      description: "strict NO re-use policy"
     },
     {
       icon: "💊",
       title: "VITAMIN",
-      subtitle: "Neque sunt",
-      description: "dolours"
+      subtitle: "Everything is vitamin rich",
+      description: "healthy body, healthy mind"
     },
     {
       icon: "🥤",
       title: "ORGANIC",
-      subtitle: "Temporibus",
-      description: "warnuts"
+      subtitle: "No unanatural fertilizers used",
+      description: "only natural mulch was used"
     }
   ]
 
@@ -32,7 +32,7 @@ export const MenuBenefit: React.FC = () => {
         marginBottom: '30px',
         fontWeight: 'bold'
       }}>
-        OUR MENU BENEFIT
+        WHY CHOSE US?
       </Text>
       
       <div className={styles.benefitGrid}>

@@ -38,7 +38,7 @@ export const BodyP4: React.FC = () => {
               lineHeight: '1.2',
               marginBottom: '30px'
             }}>
-              Just imagine seeds and summer in gell sunshine.
+              A pocket full of sunshine and a bowl full of fruits!
             </Text>
           </div>
           

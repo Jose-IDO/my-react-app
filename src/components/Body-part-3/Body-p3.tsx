@@ -20,10 +20,10 @@ export const BodyP3: React.FC = () => {
             {/* </div> */}
             <div className={styles.textContent}>
               <Text variant="h2" style={{ color: 'white', fontSize: 'clamp(24px, 4vw, 48px)', marginBottom: '15px' }}>
-                Orange Benefit
+                What are the benefits of orange juice?
               </Text>
               <Text variant="p" style={{ color: 'white', fontSize: 'clamp(14px, 2vw, 18px)', marginBottom: '20px' }}>
-                Just regione seeds and summer in gelled quisquam.
+                we dive deeper into the worlds most popular citrus fruit in the article below.
               </Text>
               <button className={styles.learnMoreBtn}>Learn More</button>
             </div>

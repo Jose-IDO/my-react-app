@@ -7,23 +7,23 @@ export const ProductGrid: React.FC = () => {
     {
       id: 1,
       image: "https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/fruitbowl2.png",
-      title: "ARCU VOLUT PAT VITAE",
-      subtitle: "Phasellus lorem",
-      price: "$19,99, 90,99€"
+      title: "TANGY AND SWEET!",
+      subtitle: "vitamin rich!",
+      price: "R7.00/Kg"
     },
     {
       id: 2,
       image: "https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/coffeeandjuice.png",
-      title: "ARCU VOLUT PAT VITAE",
-      subtitle: "Oriente past brossa",
-      price: "$19,99, 90,99€"
+      title: " OUR SUMMER FAVORITE",
+      subtitle: "our number one bestseller",
+      price: "R45.00 / bowl"
     },
     {
       id: 3,
       image: "https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/fruitbowl2.png",
-      title: "SFINLY TUN DIEN ARD",
-      subtitle: "Original sunteri",
-      price: "$19,99, 90,99€"
+      title: "BERRY BLAST",
+      subtitle: "bery bery tasty!",
+      price: "R48.00 / bowl"
     }
   ]
 
