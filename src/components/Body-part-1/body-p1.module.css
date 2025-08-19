@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-
 html, body {
   margin: 0;
   padding: 0;
@@ -10,32 +9,27 @@ html, body {
 }
 
 body {
-  background-image: url('/src/assets/background-image.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-
-  
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%
 }
 
 .wholebodyp1 {
-  all: unset;
-  display: block;
-  width: 80%;
-  margin: 91px auto 0;
+  width: 84%;
+  margin: 100px auto 0;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .imageWrapper {
   position: relative; 
-  width: 100%;  
+  width: 100%;
   display: flex;
   justify-content: center;
-   position: relative;
-   
 }
 
 .fruitbowl {
@@ -51,7 +45,6 @@ body {
   font-family: 'Poppins', sans-serif;
   top: 10%;
   left: 5%;
-  /* transform: translate(-50%, -50%); */
   text-align: center;
 }
 
@@ -87,13 +80,12 @@ body {
 }
 
 .button1 {
-  all:unset;
-   display: inline-block;
-   cursor: pointer;
+  all: unset;
+  display: inline-block;
+  cursor: pointer;
   position: absolute;
   top: 78%;                 
   left: 23%;
-  /* bottom: 2%;               */
   max-width: 200px;
   max-height: 150px;           
   color: white;
@@ -103,13 +95,12 @@ body {
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 15px;
-  transition: transform 0.3s ease
+  transition: transform 0.3s ease;
 }
 
-.button1:hover{
+.button1:hover {
   color: rgb(200, 255, 0);
   transform: scale(1.05);
-
 }
 
 .buttonTopRight {
@@ -125,10 +116,10 @@ body {
   cursor: pointer;
   border-radius: 6px;
   text-align: center;
-  transition: transform 0.3s ease
+  transition: transform 0.3s ease;
 }
 
-.buttonTopRight:hover{
-    color: rgb(200, 255, 0);
-    transform: scale(1.05);
+.buttonTopRight:hover {
+  color: rgb(200, 255, 0);
+  transform: scale(1.05);
 }

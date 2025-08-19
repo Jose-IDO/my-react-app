@@ -2,21 +2,24 @@
 
 .bodyP4Container {
   width: 100%;
-  background-color: rgb(32, 40, 54);
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .bodyP4 {
   width: 80%;
-  max-width: 1200px;
-  padding: 80px 0;
+  
+  padding: 60px 40px;
+  background-color: rgb(32, 40, 54);
+  border-radius: 12px;
 }
 
 .mainContent {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   gap: 60px;
 }
 
@@ -89,7 +92,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* Responsive Design */
 @media (max-width: 968px) {
   .mainContent {
     flex-direction: column;
@@ -109,10 +111,6 @@
 }
 
 @media (max-width: 768px) {
-  .bodyP4 {
-    padding: 60px 0;
-  }
-  
   .imageContainer {
     height: 250px;
   }

@@ -1,13 +1,22 @@
 .bodyP2 {
-  width: 80%;
+  width: 84%;
+  margin: 0 auto;
   background-color: rgb(32, 40, 54);
   min-height: 300px;
   display: flex;
   align-items: center;
-  overflow: hidden;
-  position: relative;
+  padding: 60px 40px;
+  gap: 40px;
+  border-radius: 12px;
+}.bodyP2 {
+  margin: 0 auto;
+  background-color: rgb(32, 40, 54);
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+  gap: 40px;
 }
-
 
 .leftside {
   flex: 1;
@@ -38,23 +47,21 @@
   transition: transform 0.3s ease;
 }
 
-.learnButton:hover{
+.learnButton:hover {
   transform: scale(1.05); 
   color: yellow;
-
 }
 
 .rightImage {
-  /* flex: 1; */
+  flex: 1;
   display: flex;
-  right: 10%;
-  /* justify-content: flex-end; */
+  justify-content: center;
   align-items: center;
 }
 
 .fruitImage {
-  width: 60%;
-  max-width: 250px;
+  width: 100%;
+  max-width: 300px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
@@ -63,4 +70,16 @@
   
 .fruitImage:hover {
   transform: scale(1.05); 
+}
+
+@media (max-width: 768px) {
+  .bodyP2 {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .rightImage {
+    width: 100%;
+  }
 }

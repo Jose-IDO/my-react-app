@@ -11,13 +11,14 @@ export const BodyP3: React.FC = () => {
       
         <div className={styles.orangeBenefitSection}>
           <div className={styles.leftContent}>
-            <div className={styles.orangeIcon}>
+            {/* <div className={styles.orangeIcon}> */}
               <img 
-                src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/fruitbowl2.png"
+                src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/fruitsquare2.png
+"
                 alt="Orange slice"
                 className={styles.orangeImage}
               />
-            </div>
+            {/* </div> */}
             <div className={styles.textContent}>
               <Text variant="h2" style={{ color: 'white', fontSize: 'clamp(24px, 4vw, 48px)', marginBottom: '15px' }}>
                 Orange Benefit

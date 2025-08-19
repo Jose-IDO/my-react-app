@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './BodyP5.module.css'
+import styles from './body-p5.module.css'
 import { Containercontent } from '../Containercontent'
 import { MenuBenefit } from '../MenuBenefit/MenuBenefit'
 import { OpeningHours } from '../OpeningHours/OpeningHours'
