@@ -1,0 +1,39 @@
+.bodyP5Container {
+  width: 100%;
+  background-color: rgb(32, 40, 54);
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bodyP5 {
+  width: 80%;
+  max-width: 1200px;
+  padding: 60px 0;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+
+@media (max-width: 968px) {
+  .footerContent {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .bodyP5 {
+    padding: 40px 0;
+  }
+  
+  .footerContent {
+    gap: 30px;
+  }
+}

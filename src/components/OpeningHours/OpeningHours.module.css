@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.openingHours {
+  flex: 1;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hoursList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hourItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hourItem:last-child {
+  border-bottom: none;
+}
+
+
+@media (max-width: 768px) {
+  .hoursList {
+    gap: 12px;
+  }
+  
+  .hourItem {
+    padding: 6px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .hourItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+  }
+}

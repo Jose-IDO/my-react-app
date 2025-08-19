@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+.bodyP3Container {
+  width: 100%;
+  background-color: rgb(32, 40, 54);
+  padding: 0;
+}
+
+.bodyP3 {
+  width: 80%;
+  max-width: 1200px;
+  padding: 60px 0;
+}
+
+.orangeBenefitSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  gap: 40px;
+}
+
+.leftContent {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.orangeIcon {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgba(255, 165, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.orangeImage {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.textContent {
+  flex: 1;
+}
+
+.learnMoreBtn {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: clamp(14px, 2vw, 18px);
+  font-family: 'Poppins', sans-serif;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.learnMoreBtn:hover {
+  transform: scale(1.05);
+  color: yellow;
+}
+
+.rightContent {
+  flex: 0 0 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.juicerImage {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+  .orangeBenefitSection {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .leftContent {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .rightContent {
+    flex: none;
+    width: 100%;
+  }
+}
