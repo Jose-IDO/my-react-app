@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './BodyP5.module.css'
-import { Containercontent } from './Containercontent'
-import { MenuBenefit } from './MenuBenefit/MenuBenefit'
-import { OpeningHours } from './OpeningHours/OpeningHours'
+import { Containercontent } from '../Containercontent'
+import { MenuBenefit } from '../MenuBenefit/MenuBenefit'
+import { OpeningHours } from '../OpeningHours/OpeningHours'
 
 export const BodyP5: React.FC = () => {
   return (

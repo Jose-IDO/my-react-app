@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: rgb(32, 40, 54);
 }
 
 h1 {
@@ -72,5 +73,6 @@ button:focus-visible {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;  /* Centers all child components horizontally */
+  align-items: center;
+  background-color: rgb(32, 40, 54);
 }
