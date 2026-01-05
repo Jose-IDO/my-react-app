@@ -13,7 +13,7 @@ export const BodyP3: React.FC = () => {
           <div className={styles.leftContent}>
             {/* <div className={styles.orangeIcon}> */}
               <img 
-                src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/orangeslices.png"
+                src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/refs/heads/production/src/assets/orangeslices.png"
                 alt="Orange slice"
                 className={styles.orangeImage}
               />
@@ -30,7 +30,7 @@ export const BodyP3: React.FC = () => {
           </div>
           <div className={styles.rightContent}>
             <img 
-              src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/coffeeandjuice.png"
+              src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/refs/heads/production/src/assets/coffeeandjuice.png"
               alt="Fruitbowl"
               className={styles.juicerImage}
             />

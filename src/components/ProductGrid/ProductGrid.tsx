@@ -6,21 +6,21 @@ export const ProductGrid: React.FC = () => {
   const products = [
     {
       id: 1,
-      image: "https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/fruitbowl2.png",
+      image: "https://raw.githubusercontent.com/Jose-IDO/my-react-app/refs/heads/production/src/assets/fruitsquareone.png",
       title: "TANGY AND SWEET!",
       subtitle: "vitamin rich!",
       price: "R7.00/Kg"
     },
     {
       id: 2,
-      image: "https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/coffeeandjuice.png",
+      image: "https://raw.githubusercontent.com/Jose-IDO/my-react-app/refs/heads/production/src/assets/fruitsquare2.png",
       title: " OUR SUMMER FAVORITE",
       subtitle: "our number one bestseller",
       price: "R45.00 / bowl"
     },
     {
       id: 3,
-      image: "https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/fruitbowl2.png",
+      image: "https://raw.githubusercontent.com/Jose-IDO/my-react-app/refs/heads/production/src/assets/fruitsquare3.png",
       title: "BERRY BLAST",
       subtitle: "bery bery tasty!",
       price: "R48.00 / bowl"

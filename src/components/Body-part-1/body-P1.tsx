@@ -7,7 +7,7 @@ export const BodyP1: React.FC = () => {
     <Containercontent className={styles.wholebodyp1}>
       <div className={styles.imageWrapper}>
         <img
-          src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/fruitbowl2.png"
+          src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/refs/heads/production/src/assets/fruitbowl2.png"
           alt="fruit bowl"
           className={styles.fruitbowl}
         />

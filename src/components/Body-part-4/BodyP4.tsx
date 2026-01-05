@@ -12,7 +12,7 @@ export const BodyP4: React.FC = () => {
             <div className={styles.cardContent}>
               <div className={styles.berryBackground}>
                 <img 
-                  src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/fruitbowl2.png"
+                  src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/refs/heads/production/src/assets/fruitbowl2.png"
                   alt="Berry background"
                   className={styles.backgroundImage}
                 />
@@ -45,7 +45,7 @@ export const BodyP4: React.FC = () => {
           <div className={styles.rightSection}>
             <div className={styles.imageContainer}>
               <img 
-                src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/fruitbowl2.png"
+                src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/refs/heads/production/src/assets/fruitbowl2.png"
                 alt="Fresh berries"
                 className={styles.berryImage}
               />
