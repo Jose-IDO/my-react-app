@@ -13,7 +13,7 @@ export const BodyP2: React.FC = () => {
 
       <div className={styles.rightImage}>
         <img 
-          src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/main/src/assets/coffeeandjuice.png"
+          src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/refs/heads/production/src/assets/coffeeandjuice.png"
           alt="Coffee and Juice"
           className={styles.fruitImage}
         />
