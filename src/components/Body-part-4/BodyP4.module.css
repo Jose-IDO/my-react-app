@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 .bodyP4Container {
   width:80;
@@ -22,9 +23,10 @@
   justify-content: space-between;
   margin-bottom: 40px;
   gap: 60px;
+  flex-direction: row;
 }
 
-.middleSection {
+.textbox {
   flex: 1;
   font-family: 'Poppins', sans-serif;
   /* font-weight: 200; */
@@ -34,13 +36,7 @@
   flex: 0 0 400px;
 }
 
-.imageContainer {
-  width: 100%;
-  height: 300px;
-  border-radius: 16px;
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.05);
-}
+
 
 .berryImage {
   width: 100%;
@@ -128,4 +124,49 @@
     width: 200px;
     height: 130px;
   }
+}
+
+.whitebox{
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  border-radius: 10px ;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+
+}
+
+.imageContainer {
+  width: 400px;
+  height: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.learnMoreBtn {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: clamp(14px, 2vw, 18px);
+  font-family: 'Poppins', sans-serif;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.learnMoreBtn:hover {
+  transform: scale(1.05);
+  color: yellow;
+}
+.whiteboxcontent{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
