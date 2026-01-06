@@ -11,8 +11,8 @@ export const BodyP4: React.FC = () => {
           <div className={styles.textbox}>
             <Text variant="h2" style={{ 
               color: 'white', 
-              fontSize: 'clamp(32px, 6vw, 72px)', 
-              fontWeight: '200',
+              fontSize: '46px', 
+              fontWeight: '500',
               lineHeight: '1.2',
               marginBottom: '30px'
             }}>
@@ -38,7 +38,7 @@ export const BodyP4: React.FC = () => {
               marginBottom: '30px',
 
             }}>
-              Berries, whats their deal?
+              Berries, what's their deal?
             </Text>
 
                                     <Text variant="h2" style={{ 
