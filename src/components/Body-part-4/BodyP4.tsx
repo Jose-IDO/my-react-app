@@ -7,30 +7,8 @@ export const BodyP4: React.FC = () => {
   return (
     <div className={styles.bodyP4Container}>
       <Containercontent className={styles.bodyP4}>
-                <div className={styles.leftSection}>
-          <div className={styles.helloCard}>
-            <div className={styles.cardContent}>
-              <div className={styles.berryBackground}>
-                <img 
-                  src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/refs/heads/production/src/assets/fruitbowl2.png"
-                  alt="Berry background"
-                  className={styles.backgroundImage}
-                />
-              </div>
-              <div className={styles.cardText}>
-                <Text variant="h2" style={{ 
-                  fontSize: 'clamp(24px, 4vw, 48px)', 
-                  color: '#333',
-                  fontWeight: 'bold'
-                }}>
-                  HELLO.
-                </Text>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className={styles.mainContent}>
-          <div className={styles.middleSection}>
+          <div className={styles.textbox}>
             <Text variant="h2" style={{ 
               color: 'white', 
               fontSize: 'clamp(32px, 6vw, 72px)', 
@@ -42,15 +20,45 @@ export const BodyP4: React.FC = () => {
             </Text>
           </div>
           
-          <div className={styles.rightSection}>
             <div className={styles.imageContainer}>
               <img 
-                src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/refs/heads/production/src/assets/fruitbowl2.png"
+                src="https://raw.githubusercontent.com/Jose-IDO/my-react-app/refs/heads/production/src/assets/generated-image-1.png"
                 alt="Fresh berries"
                 className={styles.berryImage}
               />
-            </div>
           </div>
+          <div className={styles.whiteboxcontent}>
+
+                      <div className={styles.whitebox}>
+                        <Text variant="h2" style={{ 
+              color: 'black', 
+              fontSize: '40px', 
+              fontWeight: '700',
+              lineHeight: '1.2',
+              marginBottom: '30px',
+
+            }}>
+              Berries, whats their deal?
+            </Text>
+
+                                    <Text variant="h2" style={{ 
+              color: 'black', 
+              fontSize: '25px', 
+              fontWeight: '350',
+              lineHeight: '1.2',
+
+
+            }}>
+              want to learn what research is saying?
+            </Text>
+
+            <button className={styles.learnMoreBtn}>Click here!</button>
+
+          </div>
+
+          </div>
+
+
         </div>
         
 
