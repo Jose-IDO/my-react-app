@@ -4,10 +4,10 @@ import { Text } from '../text/text'
 
 export const OpeningHours: React.FC = () => {
   const hours = [
-    { day: "Monday", time: "8 AM - 4 PM (*Excludes online Pre-packacged deliveries)" },
-    { day: "Tuesday", time: "8 AM - 4 PM (*Excludes online Pre-packacged deliveries)" },
-    { day: "Wednesday", time: "8 AM - 4 PM (*Excludes online Pre-packacged deliveries)" },
-    { day: "Thursday", time: "8 AM - 4 PM (*Excludes online Pre-packacged deliveries)" }
+    { day: "Monday", time: "8 AM - 4 PM " },
+    { day: "Tuesday", time: "8 AM - 4 PM " },
+    { day: "Wednesday", time: "8 AM - 4 PM " },
+    { day: "Thursday", time: "8 AM - 4 PM " }
   ]
 
   return (

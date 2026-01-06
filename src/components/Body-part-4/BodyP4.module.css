@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 .bodyP4Container {
-  width:80;
+  width: 80;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -11,10 +11,10 @@
 
 .bodyP4 {
   width: 80%;
-  
-  padding: 60px 40px;
+
+  padding: 30px 28px;
   background-color: rgb(32, 40, 54);
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 
 .mainContent {
@@ -28,15 +28,13 @@
 
 .textbox {
   flex: 1;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   /* font-weight: 200; */
 }
 
 .rightSection {
   flex: 0 0 400px;
 }
-
-
 
 .berryImage {
   width: 100%;
@@ -87,7 +85,7 @@
   transform: translate(-50%, -50%);
   z-index: 2;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @media (max-width: 968px) {
@@ -96,13 +94,13 @@
     text-align: center;
     gap: 40px;
   }
-  
+
   .rightSection {
     flex: none;
     width: 100%;
     max-width: 400px;
   }
-  
+
   .bottomSection {
     justify-content: center;
   }
@@ -112,7 +110,7 @@
   .imageContainer {
     height: 250px;
   }
-  
+
   .helloCard {
     width: 250px;
     height: 160px;
@@ -126,19 +124,22 @@
   }
 }
 
-.whitebox{
+.whitebox {
   background-color: white;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  border-radius: 10px ;
+  font-variation-settings: "wdth" 100;
+  border-radius: 10px;
   padding: 10px;
   width: 300px;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-
+  text-align: center;
+  /* gap: 5px; */
 }
 
 .imageContainer {
@@ -154,19 +155,20 @@
   border: none;
   padding: 12px 24px;
   font-size: clamp(14px, 2vw, 18px);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border-radius: 6px;
   cursor: pointer;
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
 }
 
 .learnMoreBtn:hover {
   transform: scale(1.05);
   color: yellow;
 }
-.whiteboxcontent{
-    display: flex;
+.whiteboxcontent {
+  display: flex;
   justify-content: center;
   align-items: center;
-  
 }
